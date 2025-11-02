@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hair Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Mom's Hair Gallery</h1>
+    <p>Explore different types of hair we offer</p>
+  </header>
+
+  <main>
+    <div class="gallery">
+      <div class="hair-card" onclick="showDetails('Curly Hair')">
+        <img src="curly.jpg" alt="Curly Hair" />
+        <h2>Curly Hair</h2>
+      </div>
+      <div class="hair-card" onclick="showDetails('Straight Hair')">
+        <img src="straight.jpg" alt="Straight Hair" />
+        <h2>Straight Hair</h2>
+      </div>
+      <div class="hair-card" onclick="showDetails('Wavy Hair')">
+        <img src="wavy.jpg" alt="Wavy Hair" />
+        <h2>Wavy Hair</h2>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Contact us at: <a href="mailto:info@momshair.com">info@momshair.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
